@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- leaflit css code for map -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css code -->
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="first">
+        <div class="social">
+          <a href="http://"><img src="imgs/youtube.svg" alt="" /></a>
+          <a href=""> <img src="imgs/twitterheader.svg" alt="" /></a>
+          <a href=""> <img src="imgs/fb.svg" alt="" /></a>
+          <a href=""> <img src="imgs/linkedin.svg" alt="" /></a>
+        </div>
+        <div class="info">
+          <a href="tel:+22271800">
+            <p class="target">22271800</p>
+            <img src="imgs/phone.svg" alt=""
+          /></a>
+          <div class="horizontalLine"></div>
+          <a href="mailto:Training@KUNA.Net.kw"
+            ><p class="target">Training@KUNA.Net.kw</p>
+            <img src="imgs/mailheader.svg" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="second">
+        <div class="logo-nav">
+          <img src="imgs/logo.svg" alt="" />
+        </div>
+        <img class="burger-btn" src="imgs/burger-btn.svg" alt="" />
+        <div class="nav-links">
+          <div class="nav-mobile">
+            <img class="exit-btn" src="imgs/exit.svg" alt="" />
+            <a href="#nav">الرئيسيه</a>
+          </div>
+          <a href="#classes">الدورات التدريبيه</a>
+          <a href="#about">عن المركز </a>
+          <a href="#call">اتصل بنا </a>
+        </div>
+      </div>
+    </nav>
+    <div class="main-slide">
+      <div class="text">
+        <h2>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم</h2>
+        <p>
+          لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور
+          طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه بروشور او فلاير على
+          سبيل المثال ... او نماذج مواقع انترنت ... وعند موافقه العميل المبدئيه
+          على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية من
+          الملاحظات او الانتقادات للتصميم الاساسي.
+        </p>
+      </div>
+      <img class="student" src="imgs/main.svg" alt="" />
+      <img class="num-students" src="imgs/Group 7.svg" alt="" />
+      <div class="graph">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="home-header">برامج الموسم التدريبي 2023 2024 للأفراد فقط</h2>
+      <div id="classes" class="programs">
+        <div class="program">
+          <img src="imgs/course 3.svg" alt="" />
+          <div class="content">
+            <h4>صحافة الذكاء الاصطناعي وصناعة المحتوى الآلي</h4>
+            <p>
+              يهدف البرنامج الى التعرف على أسس صناعة الإعلام والمحتوى باستخدام
+              تقنيات الذكاء الإصطناعي وإنتاج محتوى النصوص ، المرئي، وكشف المحتوى
+              الزائف.
+            </p>
+            <div>
+              <img src="imgs/calender.svg" alt="" />
+              <span>30/04/2023</span>
+              <span>الي</span>
+              <span>30/04/2023</span>
+            </div>
+
+            <div>
+              <img src="imgs/time.svg" alt="" />
+              <span>09:00ص</span>
+              <span>الي</span>
+              <span>02:00 م</span>
+            </div>
+            <div>
+              <img src="imgs/particpants.svg" alt="" />
+              <span>عدد المقاعد المحجوزة :</span>
+              <span>20</span>
+            </div>
+
+            <div class="buttons">
+              <button>تسجيل</button>
+              <button>شاهد التفاصيل</button>
+            </div>
+            <div class="social-media">
+              <a href="https://twitter.com/Kuna_ar"
+                ><img src="imgs/twitter.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/kuna_photo/"
+                ><img src="imgs/instgram.svg" alt=""
+              /></a>
+              <a href="mailto:Training@KUNA.Net.kw"
+                ><img src="imgs/email.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="program">
+          <img src="imgs/course 2.svg" alt="" />
+          <div class="content">
+            <h4>صحافة الذكاء الاصطناعي وصناعة المحتوى الآلي</h4>
+            <p>
+              يهدف البرنامج الى التعرف على أسس صناعة الإعلام والمحتوى باستخدام
+              تقنيات الذكاء الإصطناعي وإنتاج محتوى النصوص ، المرئي، وكشف المحتوى
+              الزائف.
+            </p>
+            <div>
+              <img src="imgs/calender.svg" alt="" />
+              <span>30/04/2023</span>
+              <span>الي</span>
+              <span>30/04/2023</span>
+            </div>
+
+            <div>
+              <img src="imgs/time.svg" alt="" />
+              <span>09:00ص</span>
+              <span>الي</span>
+              <span>02:00 م</span>
+            </div>
+            <div>
+              <img src="imgs/particpants.svg" alt="" />
+              <span>عدد المقاعد المحجوزة :</span>
+              <span>20</span>
+            </div>
+            <div class="buttons">
+              <button>تسجيل</button>
+              <button>شاهد التفاصيل</button>
+            </div>
+            <div class="social-media">
+              <a href="https://twitter.com/Kuna_ar"
+                ><img src="imgs/twitter.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/kuna_photo/"
+                ><img src="imgs/instgram.svg" alt=""
+              /></a>
+              <a href="mailto:Training@KUNA.Net.kw"
+                ><img src="imgs/email.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="program">
+          <img src="imgs/course 1.svg" alt="" />
+          <img class="expired" src="imgs/expired.svg" alt="" />
+          <div class="content">
+            <h4>صحافة الذكاء الاصطناعي وصناعة المحتوى الآلي</h4>
+            <p>
+              يهدف البرنامج الى التعرف على أسس صناعة الإعلام والمحتوى باستخدام
+              تقنيات الذكاء الإصطناعي وإنتاج محتوى النصوص ، المرئي، وكشف المحتوى
+              الزائف.
+            </p>
+            <div>
+              <img src="imgs/calender.svg" alt="" />
+              <span>30/04/2023</span>
+              <span>الي</span>
+              <span>30/04/2023</span>
+            </div>
+
+            <div>
+              <img src="imgs/time.svg" alt="" />
+              <span>09:00ص</span>
+              <span>الي</span>
+              <span>02:00 م</span>
+            </div>
+            <div>
+              <img src="imgs/particpants.svg" alt="" />
+              <span>عدد المقاعد المحجوزة :</span>
+              <span>20</span>
+            </div>
+            <div class="buttons">
+              <button>تسجيل</button>
+              <button>شاهد التفاصيل</button>
+            </div>
+            <div class="social-media">
+              <a href="https://twitter.com/Kuna_ar"
+                ><img src="imgs/twitter.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/kuna_photo/"
+                ><img src="imgs/instgram.svg" alt=""
+              /></a>
+              <a href="mailto:Training@KUNA.Net.kw"
+                ><img src="imgs/email.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="program">
+          <img src="imgs/course 6.svg" alt="" />
+          <div class="content">
+            <h4>صحافة الذكاء الاصطناعي وصناعة المحتوى الآلي</h4>
+            <p>
+              يهدف البرنامج الى التعرف على أسس صناعة الإعلام والمحتوى باستخدام
+              تقنيات الذكاء الإصطناعي وإنتاج محتوى النصوص ، المرئي، وكشف المحتوى
+              الزائف.
+            </p>
+            <div>
+              <img src="imgs/calender.svg" alt="" />
+              <span>30/04/2023</span>
+              <span>الي</span>
+              <span>30/04/2023</span>
+            </div>
+
+            <div>
+              <img src="imgs/time.svg" alt="" />
+              <span>09:00ص</span>
+              <span>الي</span>
+              <span>02:00 م</span>
+            </div>
+            <div>
+              <img src="imgs/particpants.svg" alt="" />
+              <span>عدد المقاعد المحجوزة :</span>
+              <span>20</span>
+            </div>
+            <div class="buttons">
+              <button>تسجيل</button>
+              <button>شاهد التفاصيل</button>
+            </div>
+            <div class="social-media">
+              <a href="https://twitter.com/Kuna_ar"
+                ><img src="imgs/twitter.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/kuna_photo/"
+                ><img src="imgs/instgram.svg" alt=""
+              /></a>
+              <a href="mailto:Training@KUNA.Net.kw"
+                ><img src="imgs/email.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="program">
+          <img src="imgs/course 5.svg" alt="" />
+          <div class="content">
+            <h4>صحافة الذكاء الاصطناعي وصناعة المحتوى الآلي</h4>
+            <p>
+              يهدف البرنامج الى التعرف على أسس صناعة الإعلام والمحتوى باستخدام
+              تقنيات الذكاء الإصطناعي وإنتاج محتوى النصوص ، المرئي، وكشف المحتوى
+              الزائف.
+            </p>
+            <div>
+              <img src="imgs/calender.svg" alt="" />
+              <span>30/04/2023</span>
+              <span>الي</span>
+              <span>30/04/2023</span>
+            </div>
+
+            <div>
+              <img src="imgs/time.svg" alt="" />
+              <span>09:00ص</span>
+              <span>الي</span>
+              <span>02:00 م</span>
+            </div>
+            <div>
+              <img src="imgs/particpants.svg" alt="" />
+              <span>عدد المقاعد المحجوزة :</span>
+              <span>20</span>
+            </div>
+            <div class="buttons">
+              <button>تسجيل</button>
+              <button>شاهد التفاصيل</button>
+            </div>
+            <div class="social-media">
+              <a href="https://twitter.com/Kuna_ar"
+                ><img src="imgs/twitter.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/kuna_photo/"
+                ><img src="imgs/instgram.svg" alt=""
+              /></a>
+              <a href="mailto:Training@KUNA.Net.kw"
+                ><img src="imgs/email.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="program">
+          <img src="imgs/course 4.svg" alt="" />
+          <div class="content">
+            <h4>صحافة الذكاء الاصطناعي وصناعة المحتوى الآلي</h4>
+            <p>
+              يهدف البرنامج الى التعرف على أسس صناعة الإعلام والمحتوى باستخدام
+              تقنيات الذكاء الإصطناعي وإنتاج محتوى النصوص ، المرئي، وكشف المحتوى
+              الزائف.
+            </p>
+            <div>
+              <img src="imgs/calender.svg" alt="" />
+              <span>30/04/2023</span>
+              <span>الي</span>
+              <span>30/04/2023</span>
+            </div>
+
+            <div>
+              <img src="imgs/time.svg" alt="" />
+              <span>09:00ص</span>
+              <span>الي</span>
+              <span>02:00 م</span>
+            </div>
+            <div>
+              <img src="imgs/particpants.svg" alt="" />
+              <span>عدد المقاعد المحجوزة :</span>
+              <span>20</span>
+            </div>
+            <div class="buttons">
+              <button>تسجيل</button>
+              <button>شاهد التفاصيل</button>
+            </div>
+            <div class="social-media">
+              <a href="https://twitter.com/Kuna_ar"
+                ><img src="imgs/twitter.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/kuna_photo/"
+                ><img src="imgs/instgram.svg" alt=""
+              /></a>
+              <a href="mailto:Training@KUNA.Net.kw"
+                ><img src="imgs/email.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="watch">شاهد المزيد</button>
+      <div class="about">
+        <h3>عن المركز</h3>
+        <p>
+          تأسس مركز كونا لتطوير القدرات الإعلامية في عام 1995 بهدف تنمية
+          المهارات العملية لموظفي وكالة الأنباء الكويتية كونا بشكل خاص و في
+          القطاع الاعلامي الكويتي و الخليجي و العربي بشكل عام.
+        </p>
+      </div>
+      <div id="about" class="contact-us">
+        <div class="contact-us-form">
+          <form action="none">
+            <div>
+              <label for="name">الاسم</label>
+              <input
+                id="name"
+                type="text"
+                required
+                placeholder="ادخل الاسم ثلاثي"
+              />
+            </div>
+
+            <div>
+              <label for="mail">البريد الالكتروني</label>
+              <input
+                id="mail"
+                type="email"
+                required
+                placeholder="ادخل البريد الالكتروني"
+              />
+            </div>
+
+            <div>
+              <label for="sub">الموضوع</label>
+              <input
+                id="sub"
+                type="text"
+                required
+                placeholder="ادخل رقم الهاتف"
+              />
+            </div>
+
+            <div class="des">
+              <label for="des">ملخص</label>
+              <textarea
+                id="des"
+                type="text"
+                rows="8"
+                required
+                placeholder="لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه بروشور"
+              >
+              </textarea>
+            </div>
+            <input class="contact-us-form-btn" type="submit" value="ارسال" />
+          </form>
+        </div>
+        <div class="map-container">
+          <div id="call" class="map-contacts">
+            <div>
+              <a href="tel:+22271800">22271800</a>
+              <img src="imgs/phone.svg" alt="" />
+            </div>
+            <div>
+              <a href="mailto:Training@KUNA.Net.kw">Training@KUNA.Net.kw</a>
+              <img src="imgs/mailheader.svg" alt="" />
+            </div>
+          </div>
+
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-holder">
+        <div class="footer-first">
+          <h2>مركز كونا لتطوير القدرات الاعلاميه</h2>
+          <div class="social">
+            <a href="http://"><img src="imgs/youtube.svg" alt="" /></a>
+            <a href=""> <img src="imgs/twitterheader.svg" alt="" /></a>
+            <a href=""> <img src="imgs/fb.svg" alt="" /></a>
+            <a href=""> <img src="imgs/linkedin.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="copyright">
+          <h2>جميع حقوق النشر محفوظة &copy; كونا</h2>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Files For Map -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>

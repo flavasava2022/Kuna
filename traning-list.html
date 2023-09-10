@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BootStrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- DataTables CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap4.min.css"
+    />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/admin-main.css" />
+    <title>التسجيل</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="first">
+        <div class="social">
+          <a href="http://"><img src="imgs/youtube.svg" alt="" /></a>
+          <a href=""> <img src="imgs/twitterheader.svg" alt="" /></a>
+          <a href=""> <img src="imgs/fb.svg" alt="" /></a>
+          <a href=""> <img src="imgs/linkedin.svg" alt="" /></a>
+        </div>
+        <div class="info">
+          <a href="tel:+22271800">
+            <p class="target">22271800</p>
+            <img src="imgs/phone.svg" alt=""
+          /></a>
+          <div class="horizontalLine"></div>
+          <a href="mailto:Training@KUNA.Net.kw"
+            ><p class="target">Training@KUNA.Net.kw</p>
+            <img src="imgs/mailheader.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <aside>
+        <div class="right-arrow-nav">
+          <img src="imgs/nav-arrow.svg" alt="" />
+        </div>
+        <div class="logo">
+          <img src="imgs/logo.svg" alt="" />
+        </div>
+        <a href="#">
+          <div class="choice choosed">
+            <img src="imgs/Union.svg" alt="" />
+            <p>الرئيسيه</p>
+          </div>
+        </a>
+        <a href="home-admin.html">
+          <div class="choice">
+            <img src="imgs/Vector.svg" alt="" />
+            <p>اداره المستخدمين</p>
+          </div>
+        </a>
+
+        <div class="choice sub">
+          <div class="main-con">
+            <img src="imgs/sales.svg" alt="" />
+            <p>اداره التدريبات</p>
+            <img class="arrow-down" src="imgs/Vector 9.svg" alt="" />
+          </div>
+          <div class="sub-nav">
+            <a href="traning-list.html"
+              ><p><img src="imgs/Ellipse 43.svg" alt="" />قائمه التدريبات</p></a
+            >
+            <a href="traning-list.html">
+              <p><img src="imgs/Ellipse 43.svg" alt="" />قائمه المتدربين</p></a
+            >
+          </div>
+        </div>
+        <a href="admin-courses.html">
+          <div class="choice">
+            <img src="imgs/chart.svg" alt="" />
+            <p>التقارير</p>
+          </div>
+        </a>
+      </aside>
+      <div class="traning-list-container">
+        <img class="nav-arrow" src="imgs/nav-arrow.svg" alt="" />
+        <div class="direction">
+          <p>الرئيسيه</p>
+          <img src="imgs/arrow-left.svg" alt="" />
+          <p>اداره التدريبات</p>
+          <img src="imgs/arrow-left.svg" alt="" />
+          <p>قائمه التدريبات</p>
+        </div>
+        <button class="add-btn">اضافه تدريب</button>
+        <div class="table-holder traning-list-table">
+          <div class="table-responsive table-traning-res">
+            <table class="table table-borderless" id="dataTable">
+              <thead class="table-primary">
+                <tr>
+                  <th scope="col" class="text-center">اسم الدوره</th>
+                  <th scope="col" class="text-center">بدايه الدوره</th>
+                  <th scope="col" class="text-center">نهايه الدوره</th>
+                  <th scope="col" class="text-center">سعر الدوره</th>
+                  <th scope="col" class="text-center">الاختيارات</th>
+                </tr>
+              </thead>
+              <tbody id="tbody">
+                <tr>
+                  <td class="text-center">صحافة الذكاء الاصطناعي</td>
+                  <td class="text-center">24/8/2023</td>
+                  <td class="text-center">30/8/2023</td>
+                  <td class="text-center">150 SAR</td>
+                  <td class="text-center">
+                    <a href="admin-courses.html"
+                      ><img src="imgs/eye.svg" alt=""
+                    /></a>
+
+                    <a href="Training-modification.html"
+                      ><img src="imgs/edit.svg" alt=""
+                    /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center">صحافة الذكاء الاصطناعي</td>
+                  <td class="text-center">24/8/2023</td>
+                  <td class="text-center">30/8/2023</td>
+                  <td class="text-center">150 SAR</td>
+                  <td class="text-center">
+                    <a href="admin-courses.html"
+                      ><img src="imgs/eye.svg" alt=""
+                    /></a>
+
+                    <a href="Training-modification.html"
+                      ><img src="imgs/edit.svg" alt=""
+                    /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center">صحافة الذكاء الاصطناعي</td>
+                  <td class="text-center">24/8/2023</td>
+                  <td class="text-center">30/8/2023</td>
+                  <td class="text-center">150 SAR</td>
+                  <td class="text-center">
+                    <a href="admin-courses.html"
+                      ><img src="imgs/eye.svg" alt=""
+                    /></a>
+
+                    <a href="Training-modification.html"
+                      ><img src="imgs/edit.svg" alt=""
+                    /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center">صحافة الذكاء الاصطناعي</td>
+                  <td class="text-center">24/8/2023</td>
+                  <td class="text-center">30/8/2023</td>
+                  <td class="text-center">150 SAR</td>
+                  <td class="text-center">
+                    <a href="admin-courses.html"
+                      ><img src="imgs/eye.svg" alt=""
+                    /></a>
+
+                    <a href="Training-modification.html"
+                      ><img src="imgs/edit.svg" alt=""
+                    /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center">
+                    صحافة الذكاء الاصطناعي وصناعةالمحتوى الآلي
+                  </td>
+                  <td class="text-center">24/8/2023</td>
+                  <td class="text-center">30/8/2023</td>
+                  <td class="text-center">150 SAR</td>
+                  <td class="text-center">
+                    <a href="admin-courses.html"
+                      ><img src="imgs/eye.svg" alt=""
+                    /></a>
+
+                    <a href="Training-modification.html"
+                      ><img src="imgs/edit.svg" alt=""
+                    /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center">صحافة الذكاء الاصطناعي</td>
+                  <td class="text-center">24/8/2023</td>
+                  <td class="text-center">30/8/2023</td>
+                  <td class="text-center">150 SAR</td>
+                  <td class="text-center">
+                    <a href="admin-courses.html"
+                      ><img src="imgs/eye.svg" alt=""
+                    /></a>
+
+                    <a href="Training-modification.html"
+                      ><img src="imgs/edit.svg" alt=""
+                    /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center">
+                    صحافة الذكاء الاصطناعي وصناعةالمحتوى الآلي
+                  </td>
+                  <td class="text-center">24/8/2023</td>
+                  <td class="text-center">30/8/2023</td>
+                  <td class="text-center">150 SAR</td>
+                  <td class="text-center">
+                    <a href="admin-courses.html"
+                      ><img src="imgs/eye.svg" alt=""
+                    /></a>
+
+                    <a href="Training-modification.html"
+                      ><img src="imgs/edit.svg" alt=""
+                    /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center">صحافة الذكاء الاصطناعي</td>
+                  <td class="text-center">24/8/2023</td>
+                  <td class="text-center">30/8/2023</td>
+                  <td class="text-center">150 SAR</td>
+                  <td class="text-center">
+                    <a href="admin-courses.html"
+                      ><img src="imgs/eye.svg" alt=""
+                    /></a>
+
+                    <a href="Training-modification.html"
+                      ><img src="imgs/edit.svg" alt=""
+                    /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center">
+                    صحافة الذكاء الاصطناعي وصناعةالمحتوى الآلي
+                  </td>
+                  <td class="text-center">24/8/2023</td>
+                  <td class="text-center">30/8/2023</td>
+                  <td class="text-center">150 SAR</td>
+                  <td class="text-center">
+                    <a href="admin-courses.html"
+                      ><img src="imgs/eye.svg" alt=""
+                    /></a>
+
+                    <a href="Training-modification.html"
+                      ><img src="imgs/edit.svg" alt=""
+                    /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-holder">
+        <div class="footer-first">
+          <h2>مركز كونا لتطوير القدرات الاعلاميه</h2>
+          <div class="social">
+            <a href="http://"><img src="imgs/youtube.svg" alt="" /></a>
+            <a href=""> <img src="imgs/twitterheader.svg" alt="" /></a>
+            <a href=""> <img src="imgs/fb.svg" alt="" /></a>
+            <a href=""> <img src="imgs/linkedin.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="copyright">
+          <h2>جميع حقوق النشر محفوظة &copy; كونا</h2>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap4.min.js"></script>
+    <script src="javascript/table.js"></script>
+    <script src="javascript/javascript-admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main Css File  -->
+    <link rel="stylesheet" href="css/admin-main.css" />
+    <title>تسجيل الدخول</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="first">
+        <div class="social">
+          <a href="http://"><img src="imgs/youtube.svg" alt="" /></a>
+          <a href=""> <img src="imgs/twitterheader.svg" alt="" /></a>
+          <a href=""> <img src="imgs/fb.svg" alt="" /></a>
+          <a href=""> <img src="imgs/linkedin.svg" alt="" /></a>
+        </div>
+        <div class="info">
+          <a href="tel:+22271800">
+            <p class="target">22271800</p>
+            <img src="imgs/phone.svg" alt=""
+          /></a>
+          <div class="horizontalLine"></div>
+          <a href="mailto:Training@KUNA.Net.kw"
+            ><p class="target">Training@KUNA.Net.kw</p>
+            <img src="imgs/mailheader.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="sign-in-container">
+      <h2>تسجيل الدخول</h2>
+      <div class="sign-in-card">
+        <div class="sign-in-img">
+          <img src="imgs/sign-in.svg" alt="" />
+        </div>
+        <form class="sign-in-form">
+          <div>
+            <label for="username">الايميل</label>
+            <div class="input-container">
+              <input
+                id="username"
+                type="email"
+                required
+                placeholder="ادخل الايميل"
+              />
+              <img src="imgs/username.svg" alt="" />
+            </div>
+          </div>
+          <div>
+            <label for="password">كلمه السر</label>
+            <div class="input-container">
+              <input
+                id="password"
+                type="password"
+                required
+                placeholder="ادخل كلمه السر"
+              />
+              <img src="imgs/password.svg" alt="" />
+            </div>
+          </div>
+          <div>
+            <input type="checkbox" id="terms" required />
+            <label class="checkbox" for="terms">موافق ع الشروط والاحكام</label>
+          </div>
+          <input class="sign-in-btn" type="submit" value="تسجيل الدخول" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main css File -->
+    <link rel="stylesheet" href="css/admin-main.css" />
+    <title>قائمه التدريبات</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="first">
+        <div class="social">
+          <a href="http://"><img src="imgs/youtube.svg" alt="" /></a>
+          <a href=""> <img src="imgs/twitterheader.svg" alt="" /></a>
+          <a href=""> <img src="imgs/fb.svg" alt="" /></a>
+          <a href=""> <img src="imgs/linkedin.svg" alt="" /></a>
+        </div>
+        <div class="info">
+          <a href="tel:+22271800">
+            <p class="target">22271800</p>
+            <img src="imgs/phone.svg" alt=""
+          /></a>
+          <div class="horizontalLine"></div>
+          <a href="mailto:Training@KUNA.Net.kw"
+            ><p class="target">Training@KUNA.Net.kw</p>
+            <img src="imgs/mailheader.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <aside>
+        <div class="right-arrow-nav">
+          <img src="imgs/nav-arrow.svg" alt="" />
+        </div>
+        <div class="logo">
+          <img src="imgs/logo.svg" alt="" />
+        </div>
+        <a href="#">
+          <div class="choice choosed">
+            <img src="imgs/Union.svg" alt="" />
+            <p>الرئيسيه</p>
+          </div>
+        </a>
+        <a href="home-admin.html">
+          <div class="choice">
+            <img src="imgs/Vector.svg" alt="" />
+            <p>اداره المستخدمين</p>
+          </div>
+        </a>
+
+        <div class="choice sub">
+          <div class="main-con">
+            <img src="imgs/sales.svg" alt="" />
+            <p>اداره التدريبات</p>
+            <img class="arrow-down" src="imgs/Vector 9.svg" alt="" />
+          </div>
+          <div class="sub-nav">
+            <a href="traning-list.html"
+              ><p><img src="imgs/Ellipse 43.svg" alt="" />قائمه التدريبات</p></a
+            >
+            <a href="traning-list.html">
+              <p><img src="imgs/Ellipse 43.svg" alt="" />قائمه المتدربين</p></a
+            >
+          </div>
+        </div>
+        <a href="admin-courses.html">
+          <div class="choice">
+            <img src="imgs/chart.svg" alt="" />
+            <p>التقارير</p>
+          </div>
+        </a>
+      </aside>
+      <div class="container">
+        <img class="nav-arrow" src="imgs/nav-arrow.svg" alt="" />
+        <div class="direction">
+          <p>الرئيسيه</p>
+          <img src="imgs/arrow-left.svg" alt="" />
+          <p>اداره التدريبات</p>
+          <img src="imgs/arrow-left.svg" alt="" />
+          <p>قائمه التدريبات</p>
+          <img src="imgs/arrow-left.svg" alt="" />
+          <span>اضافه تدريب</span>
+        </div>
+
+        <div class="traning-modification-form">
+          <form action="none">
+            <div class="fields">
+              <div>
+                <label for="course-name">اسم الدوره</label>
+                <input
+                  id="course-name"
+                  type="text"
+                  required
+                  placeholder="صحافة الذكاء الاصطناعي وصناعةالمحتوى الآلي"
+                />
+              </div>
+
+              <div>
+                <label for="course-pic">صوره الدوره</label>
+                <input id="course-pic" type="file" required />
+              </div>
+
+              <div>
+                <label for="free-seats">عدد المقاعد المتاحه</label>
+                <input
+                  id="free-seats"
+                  type="number"
+                  required
+                  placeholder="10"
+                />
+              </div>
+
+              <div>
+                <label for="sp-free-seats">عدد المقاعد المخصصه</label>
+                <input
+                  id="sp-free-seats"
+                  type="number"
+                  required
+                  placeholder="10"
+                />
+              </div>
+
+              <div>
+                <label for="res-seats">عدد المقاعد المحجوزه</label>
+                <input id="res-seats" type="number" required placeholder="10" />
+              </div>
+
+              <div>
+                <label for="price">ثمن التدريب</label>
+                <input id="price" type="text" required placeholder="1500" />
+              </div>
+
+              <div>
+                <label for="date-start">تاريخ بدايه التدريب</label>
+                <input id="date-start" type="date" required />
+              </div>
+
+              <div>
+                <label for="date-end">تاريخ نهايه التدريب</label>
+                <input id="date-end" type="date" required />
+              </div>
+
+              <div class="des">
+                <label for="des">ملخص</label>
+                <textarea
+                  id="des"
+                  type="text"
+                  rows="8"
+                  required
+                  placeholder="لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه بروشور"
+                >
+                </textarea>
+              </div>
+
+              <div>
+                <label for="date-reg">تاريخ انتهاء فتره التسجيل</label>
+                <input id="date-reg" type="date" required />
+              </div>
+
+              <div>
+                <label for="min">الحد الادني لعدد المتدربين</label>
+                <input id="min" type="text" required placeholder="20" />
+              </div>
+            </div>
+            <input class="traning-modification-btn" type="submit" value="حفظ" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-holder">
+        <div class="footer-first">
+          <h2>مركز كونا لتطوير القدرات الاعلاميه</h2>
+          <div class="social">
+            <a href="http://"><img src="imgs/youtube.svg" alt="" /></a>
+            <a href=""> <img src="imgs/twitterheader.svg" alt="" /></a>
+            <a href=""> <img src="imgs/fb.svg" alt="" /></a>
+            <a href=""> <img src="imgs/linkedin.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="copyright">
+          <h2>جميع حقوق النشر محفوظة &copy; كونا</h2>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/javascript-admin.js"></script>
+  </body>
+</html>
