@@ -96,7 +96,7 @@ div.dataTables_wrapper div.dataTables_filter label {
 div.dataTables_wrapper div.dataTables_filter input {
   padding: 1%;
   border: 1px solid #f1f0f0 !important;
-  border-radius: 12px
+  border-radius: 12px;
   margin-right: 10px;
   width: 60%;
 }
