@@ -179,6 +179,7 @@ footer .copyright {
 
 .main-slide .towers {
   max-width: 100%;
+  min-height: 150px;
 }
 
 /* End Of Main Slide */
