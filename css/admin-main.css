@@ -173,7 +173,8 @@ main {
   padding: 0;
 }
 aside {
-  width: 18%;
+  width: 200px;
+  min-width: fit-content;
   min-width: 200px;
   background-color: #022561;
   display: flex;
@@ -184,6 +185,10 @@ aside {
 .logo {
   background-color: white;
   margin-bottom: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .right-arrow-nav {
   margin-top: 10px;
@@ -197,7 +202,7 @@ aside {
     brightness(102%) contrast(101%);
 }
 .logo img {
-  max-width: 100%;
+  width: 120px;
 }
 aside .choice {
   position: relative;
@@ -268,7 +273,7 @@ footer {
 footer a {
   color: #022561;
 }
-footer h4 {
+footer p {
   font-family: "cairo";
   font-weight: 500;
   line-height: 32px !important;
