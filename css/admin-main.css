@@ -260,18 +260,18 @@ aside a {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #022561;
-  color: #f1f5f8;
+  background-color: #f1f5f8;
+  color: #022561;
   font-family: "cairo";
 }
 
 footer a {
-  color: #f1f5f8;
+  color: #022561;
 }
 footer h4 {
   font-family: "cairo";
   font-weight: 500;
-  line-height: 32px;
+  line-height: 32px !important;
   letter-spacing: 0em;
   text-align: center;
 }

@@ -141,13 +141,13 @@ nav {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #022561;
-  color: #f1f5f8;
+  background-color: #f1f5f8;
+  color: #022561;
   font-family: "cairo";
 }
 
 footer a {
-  color: #f1f5f8;
+  color: #022561;
 }
 footer h4 {
   font-family: "cairo";
@@ -179,7 +179,6 @@ footer .copyright {
 
 .main-slide .towers {
   max-width: 100%;
-  min-height: 150px;
 }
 
 /* End Of Main Slide */
