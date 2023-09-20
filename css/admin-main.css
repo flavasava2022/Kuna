@@ -53,8 +53,8 @@ textarea:focus {
 .opened {
   display: flex !important;
 }
-#course-pic {
-  padding: 0;
+.course-pic {
+  padding: 0 !important;
   direction: ltr;
 }
 .checkbox-holder {
@@ -64,7 +64,7 @@ textarea:focus {
   margin-left: 10px;
   width: 20px;
 }
-#course-pic::file-selector-button {
+.course-pic::file-selector-button {
   background-image: url(../imgs/Upload_light.svg);
   background-repeat: no-repeat;
   background-position: center;
