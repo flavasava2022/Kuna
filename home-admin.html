@@ -11,18 +11,29 @@
       href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
-    <!-- BootStrap CDN -->
-    <link
-      href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <!-- DataTables CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap4.min.css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include DataTables CSS and JS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css"
+    />
+    <script
+      type="text/javascript"
+      charset="utf8"
+      src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="utf8"
+      src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"
+    ></script>
     <!-- Main Css File -->
     <link rel="stylesheet" href="css/admin-main.css" />
     <title>Main Admin</title>
@@ -141,86 +152,17 @@
         <div class="table-holder">
           <h3>اخر التدريبات</h3>
           <div class="table-responsive">
-            <table class="table table-borderless dataTable" id="table">
+            <table class="table table-borderless" id="dataTable1">
               <thead class="table-primary">
                 <tr>
                   <th scope="col" class="text-center">اسم الدوره</th>
                   <th scope="col" class="text-center">بدايه الدوره</th>
                   <th scope="col" class="text-center">نهايه الدوره</th>
                   <th scope="col" class="text-center">سعر الدوره</th>
+                  <th scope="col" class="text-center">الاختيارات</th>
                 </tr>
               </thead>
-
-              <tr>
-                <td class="text-center">صحافة الذكاء الاصطناعي</td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
-              <tr>
-                <td class="text-center">
-                  صحافة الذكاء الاصطناعي وصناعةالمحتوى الآلي
-                </td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
-              <tr>
-                <td class="text-center">صحافة الذكاء الاصطناعي</td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
-              <tr>
-                <td class="text-center">
-                  صحافة الذكاء الاصطناعي وصناعةالمحتوى الآلي
-                </td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
-              <tr>
-                <td class="text-center">صحافة الذكاء الاصطناعي</td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
-              <tr>
-                <td class="text-center">
-                  صحافة الذكاء الاصطناعي وصناعةالمحتوى الآلي
-                </td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
-              <tr>
-                <td class="text-center">
-                  صحافة الذكاء الاصطناعي وصناعةالمحتوى الآلي
-                </td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
-              <tr>
-                <td class="text-center">صحافة الذكاء الاصطناعي</td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
-              <tr>
-                <td class="text-center">
-                  صحافة الذكاء الاصطناعي وصناعةالمحتوى الآلي
-                </td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
-              <tr>
-                <td class="text-center">صحافة الذكاء الاصطناعي</td>
-                <td class="text-center">24/8/2023</td>
-                <td class="text-center">30/8/2023</td>
-                <td class="text-center">150 SAR</td>
-              </tr>
+              <tbody></tbody>
             </table>
           </div>
         </div>
@@ -236,13 +178,9 @@
         </div>
       </div>
     </footer>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- DataTables JS -->
-    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap4.min.js"></script>
+    <!-- mock Server -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mockjax/2.5.0/jquery.mockjax.min.js"></script>
+
     <script src="javascript/table.js"></script>
     <script src="javascript/javascript-admin.js"></script>
   </body>
