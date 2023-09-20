@@ -17,7 +17,7 @@ button {
   cursor: pointer;
   font-family: "cairo";
 }
-input:not(.button, #terms),
+input:not(.button, .checkboxterms),
 textarea,
 select {
   padding: 15px;
@@ -531,9 +531,9 @@ footer .copyright {
   display: flex;
   flex-wrap: wrap;
 }
-.sign-up-form form div:last-of-type {
-  flex-wrap: nowrap;
-  grid-area: 4/1/4/-1;
+.checkbox-holder {
+  flex-wrap: nowrap !important;
+  width: 200% !important;
 }
 .sign-up-form form div label {
   width: 100%;
@@ -545,7 +545,7 @@ footer .copyright {
   color: #373a36;
 }
 
-#terms {
+.checkboxterms {
   margin-left: 10px;
   width: 20px;
 }
